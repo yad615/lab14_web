@@ -103,7 +103,7 @@ export default function RootLayout({
               </div>
               <div className="border-t border-white/10 pt-6">
                 <p className="text-purple-300 text-sm">
-                  &copy; 2024 Yadhira Studio. Yadhira Alcántara.
+                  &copy; 2024 Yadhira Studio. Yadhira Alcantara.
                 </p>
               </div>
             </div>

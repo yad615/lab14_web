@@ -1,11 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contacto - Ponte en Contacto con Nosotros | Mi Sitio Optimizado',
+  title: 'Contacto - Ponte en Contacto con Nosotros | Yadhira Studio',
   description: 'Contáctanos para consultas sobre SEO, desarrollo web y optimización. Estamos aquí para ayudarte con tu proyecto.',
   keywords: ['contacto', 'consultas', 'SEO', 'desarrollo web', 'soporte'],
   openGraph: {
-    title: 'Contacto - Mi Sitio Optimizado',
+    title: 'Contacto - Yadhira Studio',
     description: 'Ponte en contacto para consultas sobre SEO y desarrollo web',
     images: [
       {
@@ -16,15 +16,15 @@ export const metadata: Metadata = {
       }
     ],
     type: 'website',
-    url: 'https://mi-sitio.com/contacto',
+    url: 'https://yadhira.studio/contacto',
   },
   twitter: {
     card: 'summary',
-    title: 'Contacto - Mi Sitio Optimizado',
+    title: 'Contacto - Yadhira Studio',
     description: 'Ponte en contacto para consultas sobre SEO',
   },
   alternates: {
-    canonical: 'https://mi-sitio.com/contacto',
+    canonical: 'https://yadhira.studio/contacto',
   },
 };
 

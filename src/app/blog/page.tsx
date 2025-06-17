@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Blog - Artículos sobre SEO y Desarrollo Web | Mi Sitio Optimizado',
+  title: 'Blog - Artículos sobre SEO y Desarrollo Web | Yadhira Studio',
   description: 'Lee los últimos artículos sobre SEO, optimización web, Next.js y desarrollo frontend. Guías paso a paso y consejos de expertos.',
   keywords: ['blog', 'SEO', 'desarrollo web', 'Next.js', 'optimización', 'tutoriales'],
   openGraph: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
       }
     ],
     type: 'website',
-    url: 'https://mi-sitio.com/blog',
+    url: 'https://yadhira.studio/blog',
   },
   twitter: {
     card: 'summary_large_image',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     images: ['/images/blog-og.png'],
   },
   alternates: {
-    canonical: 'https://mi-sitio.com/blog',
+    canonical: 'https://yadhira.studio/blog',
   },
 };
 
@@ -88,7 +88,7 @@ export default function Blog() {
       <section className="px-6 pb-20">
         <div className="max-w-6xl mx-auto">
           <div className="grid gap-8 lg:gap-12">
-            {blogPosts.map((post, index) => (
+            {blogPosts.map((post) => (
               <article 
                 key={post.id} 
                 className="group relative"
