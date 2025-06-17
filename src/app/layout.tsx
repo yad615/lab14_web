@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google';
+import Link from 'next/link';
 import './globals.css';
 import { Metadata, Viewport } from 'next';
 
@@ -60,19 +61,19 @@ export default function RootLayout({
               </div>
               <ul className="flex space-x-8">
                 <li>
-                  <a href="/" className="text-white/90 hover:text-white hover:bg-white/20 px-4 py-2 rounded-full transition-all duration-300 font-medium">
+                  <Link href="/" className="text-white/90 hover:text-white hover:bg-white/20 px-4 py-2 rounded-full transition-all duration-300 font-medium">
                     Inicio
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/blog" className="text-white/90 hover:text-white hover:bg-white/20 px-4 py-2 rounded-full transition-all duration-300 font-medium">
+                  <Link href="/blog" className="text-white/90 hover:text-white hover:bg-white/20 px-4 py-2 rounded-full transition-all duration-300 font-medium">
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/contacto" className="text-white/90 hover:text-white hover:bg-white/20 px-4 py-2 rounded-full transition-all duration-300 font-medium">
+                  <Link href="/contacto" className="text-white/90 hover:text-white hover:bg-white/20 px-4 py-2 rounded-full transition-all duration-300 font-medium">
                     Contacto
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
