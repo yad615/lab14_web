@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+Allow: /blog/
+Allow: /contacto/
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /node_modules/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+Sitemap: https://yadhira.studio/sitemap.xml
+Sitemap: https://yadhira.studio/api/sitemap
+
+User-agent: *
+Crawl-delay: 1
+
+# Host: yadhira.studio 
